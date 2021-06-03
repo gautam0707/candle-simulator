@@ -15,7 +15,7 @@ $ blender -b -noaudio -P candle_simultor.py
 
 # The rendered CANDLE dataset
 ![CANDLE grid](./sample_images/grid.png)
-The rendered version of the dataset is provided at [the CANDLE repository](https://github.com/causal-disentanglement/CANDLE).
+The rendered version of the dataset is provided at [the CANDLE repository](https://causal-disentanglement.github.io/CANDLE/).
 
 # License
 This work is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).

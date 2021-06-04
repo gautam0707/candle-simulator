@@ -10,7 +10,7 @@ Note: Tests and rendering were performed on version 2.90. Unless future versions
 The main script `candle_simulator.py` runs in an instance of blender invoked by the command:
 ```
 # starts blender in the background, without audio and runs the python script
-$ blender -b -noaudio -P candle_simultor.py
+$ blender -b -noaudio -P candle_simulator.py
 ```
 
 # The rendered CANDLE dataset

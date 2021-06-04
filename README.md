@@ -2,7 +2,7 @@
 This repository consists of Blender python scripts and corresponding assets to generate variants of the CANDLE dataset.
 
 # Environment Setup
-Download and install [Blender](https://www.blender.org/). Make sure that it's accesible from the command line. 
+Download and install [Blender](https://www.blender.org/). Make sure that it's accessible from the command line. 
 
 Note: Tests and rendering were performed on version 2.90. Unless future versions include breaking changes, functionality should be largely unaffected. Will be happy to receive a PR/issue if any issues arise.
 

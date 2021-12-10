@@ -1,5 +1,5 @@
 # candle-simulator
-This repository consists of Blender python scripts and corresponding assets to generate variants of the CANDLE dataset.
+This repository consists of Blender python scripts and corresponding assets to generate variants of the IITH-CANDLE dataset.
 
 # Environment Setup
 Download and install [Blender](https://www.blender.org/). Make sure that it's accessible from the command line. 
@@ -13,8 +13,8 @@ The main script `candle_simulator.py` runs in an instance of blender invoked by 
 $ blender -b -noaudio -P candle_simulator.py
 ```
 # The rendered CANDLE dataset
-![CANDLE grid](./sample_images/grid.png)
-The rendered version of the dataset is provided at [the CANDLE repository](https://causal-disentanglement.github.io/CANDLE/).
+![IITH-CANDLE grid](./sample_images/grid.png)
+The rendered version of the dataset is provided at [the IITH-CANDLE repository](https://causal-disentanglement.github.io/IITH-CANDLE/).
 
 # Extending CANDLE
 Each factor of variation can be independently modified or extended by simply editing or adding `.blend` files under `./data/` consisting of just that factor. The script then combines them independently while generating the dataset.
@@ -22,7 +22,7 @@ Each factor of variation can be independently modified or extended by simply edi
 ## Steps to extend
 1. Add in or modify a factor, say we add `./objects/monkey.blend`. Ensure that the filename and the property name of the factor in Blender match.
 2. Update `properties: object_type` to include `monkey`.
-3. Rendering a version now will augment CANDLE with all variants of monkey.
+3. Rendering a version now will augment IITH-CANDLE with all variants of monkey.
 
 ## Conventions followed
 | Factor | Conventions |
